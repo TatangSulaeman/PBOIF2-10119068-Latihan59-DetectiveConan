@@ -15,15 +15,35 @@ package id.tatangsulaeman.detectiveconan.tugas;
  * 
  */
 public class Tokoh {
-    private String tokoh;
 
-    public String getTokoh() {
-        return tokoh;
+    protected String nama,peran,biodata;
+
+    public String getNama() {
+        return nama;
     }
 
-    public void setTokoh(String tokoh) {
-        this.tokoh = tokoh;
+    public void setNama(String nama) {
+        this.nama = nama;
     }
+
+    public String getPeran() {
+        return peran;
+    }
+
+    public void setPeran(String peran) {
+        this.peran = peran;
+    }
+
+    public String getBiodata() {
+        return biodata;
+    }
+
+    public void setBiodata(String biodata) {
+        this.biodata = biodata;
+    }
+    
+    
+    
     
     
 }
